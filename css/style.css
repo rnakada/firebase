@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/body.jpg);
+}
+/* Container that wraps entire content */
+#entireContainer {
+    /* border: 1px solid yellow; */
+    padding: 0 40px;
+}
+
+.container {
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    width: 20%;
+    /* border: 1px solid yellow; */
+    float: left;
+}
+
+.padding {
+    padding-bottom: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* top of page */
+#header {
+    /* border: 1px solid green; */
+    height: 200px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.headerTitle {
+    font-size: 80px;
+    font-family: fantasy;
+    letter-spacing: 5px;
+}
+
+.headerSubtitle {
+    font-size: 40px;
+    font-family: fantasy;
+    padding-top: 20px;
+}
+
+/* content */
+#section {
+    /* border: 1px solid red; */
+    padding-top: 50px;
+}
+
+.sectionTitle {
+    /* border: 1px solid green; */
+    background-color: black;
+    padding-left: 50px;
+    padding-top: 10px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 30px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+}
+
+.listTitle {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0;
+    text-decoration: underline;
+}
+
+/* form section */
+
+#form {
+    margin: auto 0;
+}
+
+.formTitle {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.inputText {
+    width: 40%;
+}
+
+.submitButton {
+    background-color: black;
+    color: white;
+    font-family: fantasy;
+    height: 40px;
+    margin-left: 10%;
+}
