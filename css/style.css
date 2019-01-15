@@ -21,6 +21,9 @@ body {
     width: 20%;
     /* border: 1px solid yellow; */
     float: left;
+    background-color: white;
+    border: 5px solid black;
+    text-align: center;
 }
 
 .padding {
@@ -75,6 +78,7 @@ body {
     font-weight: bold;
     padding: 20px 0;
     text-decoration: underline;
+    font-weight: bolder;
 }
 
 /* form section */
@@ -98,4 +102,21 @@ body {
     font-family: fantasy;
     height: 40px;
     margin-left: 10%;
+}
+
+/* footer */
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    font-size: 25px;
+    left: 45%;
+    font-weight: bolder;
+    background: lightgrey;
+    border: 3px solid black;
+}
+
+.fontWhite {
+    color: white;
 }
